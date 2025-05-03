@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using Aplicacion.Wrappers;
 
 namespace Aplicacion.DTOs.Persona
 {
@@ -13,6 +15,28 @@ namespace Aplicacion.DTOs.Persona
         public string Ci { get; set; }
         public string Exp { get; set; }
         public string Celular { get; set; }
+
+
+        public DateTime? FechaNacimiento { get; set; }
+        public int? Edad {  get; set; }
+        public string Domicilio { get; set; }
+        public  string Residencia { get; set; }
+        public string InicioContrato { get; set; }
+        public string Correo { get; set; }
+
+
+
+        /*id*/
+        public string IdgenUnidad { get; set; }
+        public string IdgenCategoria { get; set; }
+        public string IdgenClase { get; set; }
+        public string IdgenNivelsalarial { get; set; }
+        public string IdgenPuestodenominacion { get; set; }
+        public string IdgenSexo { get; set; }
+        public string IdgenProfesion { get; set; }
+        public DateTime IdgengrupoTrabajo { get; set; }
+
+
     }
 
 }
